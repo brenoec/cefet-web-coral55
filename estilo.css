@@ -1,1 +1,74 @@
 @import "fonts/stylesheet.css";
+
+body, h1, h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#cabecalho h1 {
+  font-family: ravie;
+  font-size: 36px;
+  color: #e90c0c;
+}
+
+#ticket {
+  position: fixed;
+
+  top: 295px;
+  left: -70px;
+}
+
+#siri {
+  position: absolute;
+
+  top: 7px;
+  left: -10px;
+}
+
+#bolha {
+  position: absolute;
+
+  top: 468px;
+  left: 50px;
+}
+
+#peixe {
+  position: absolute;
+
+  top: 656px;
+  left: -44px;
+}
+
+#recipiente {
+  width: 800px;
+  height: 766px;
+  margin-left: 110px;
+  border: 1px solid #d3d3d3;
+  border-top: 0px;
+}
+
+#conteudo {
+  padding-left: 154px;
+}
+
+#lateral {
+  position: absolute;
+  width: 154px;
+}
+
+#lateral h2 {
+  transform: rotate(270deg);
+
+  position: absolute;
+  bottom: 80px;
+  left: -40px;
+
+  color: #333;
+
+  font-family: verdana;
+  font-size: 48px;
+  font-wight: bold;
+}
+
+#cardapio {
+}
