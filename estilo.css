@@ -9,13 +9,38 @@ body, h1, h2 {
   font-family: ravie;
   font-size: 36px;
   color: #e90c0c;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
+
+#cabecalho h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: right;
+  font-weight: normal;
+  padding-right: 100px;
+}
+
+#cabecalho span {
+  color: #d027aa;
+}
+
+#cabecalho {
+  padding-left: 20px;
+}
+
 
 #ticket {
   position: fixed;
 
   top: 295px;
   left: -70px;
+}
+
+#ticket:hover {
+  left: 0px;
+  transition: left .5s;
 }
 
 #siri {
@@ -45,10 +70,12 @@ body, h1, h2 {
   margin-left: 110px;
   border: 1px solid #d3d3d3;
   border-top: 0px;
+  background: linear-gradient(to bottom, #f6f1b2, #4599b2);
 }
 
 #conteudo {
   padding-left: 154px;
+  padding-top: 30px;
 }
 
 #lateral {
@@ -60,15 +87,40 @@ body, h1, h2 {
   transform: rotate(270deg);
 
   position: absolute;
-  bottom: 80px;
+  bottom: -350px;
   left: -40px;
 
   color: #333;
 
   font-family: verdana;
   font-size: 48px;
-  font-wight: bold;
+  font-weight: bold;
 }
 
 #cardapio {
+  background-color: rgba(255,255,255,0.2);
+  border: 1px #aac0ae solid;
+  padding-left: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  height: 540px;
+}
+
+#cardapio span {
+
+  float: right;
+  margin-right: 20px;
+}
+
+#cardapio h3 {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+#rodape {
+  margin-top: 46px;
+  float: right;
+  margin-right: 15px;
+}
 }
